@@ -18,7 +18,7 @@ from opencensus.trace.samplers import ProbabilitySampler
 from opencensus.ext.flask.flask_middleware import FlaskMiddleware
 
 
-appInsightConnectionStr = os.environ.get('AppInsightConnectionString') or 'InstrumentationKey=61537851-56f6-4f0c-a3ed-9a34324144d6;IngestionEndpoint=https://southeastasia-1.in.applicationinsights.azure.com/;LiveEndpoint=https://southeastasia.livediagnostics.monitor.azure.com/;ApplicationId=43d92f0c-f0c2-4001-9c96-b0bfc83ea750'
+appInsightConnectionStr = os.environ.get('AppInsightConnectionString') or 'InstrumentationKey=1eb64ce7-e971-4071-869b-becb718bad7f;IngestionEndpoint=https://southeastasia-1.in.applicationinsights.azure.com/;LiveEndpoint=https://southeastasia.livediagnostics.monitor.azure.com/;ApplicationId=381381f5-9bd2-43ed-b066-ffc40b99fec8'
 
 # Logging
 logger = logging.getLogger(__name__)
